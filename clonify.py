@@ -109,7 +109,7 @@ class Seq(object):
 
 
 
-def clonify((ichunk, jchunk)):
+def clonify(ichunk, jchunk):
 	results = []
 	for i in ichunk:
 		results.append(get_scores(i, jchunk))
